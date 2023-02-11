@@ -50,7 +50,6 @@ const selectPokemon = async (pokemon) => {
             <CardPokemonSelected 
             :name="pokemonSelected?.name"  
             :img="pokemonSelected?.sprites.other.dream_world.front_default" 
-            :hp="pokemonSelected?.stat.attack"
             :loading="loading"
             />             
              
