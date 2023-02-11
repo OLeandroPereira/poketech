@@ -6,7 +6,7 @@
 </script>
 <template>
 <!--NAVBAR-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+<nav class="navbar navbar-expand-lg navbar-primary bg-warning">
   <div class="container-fluid">
     <router-link class="navbar-brand" to="/">
       <img src="./assets/icon.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
@@ -32,7 +32,7 @@
   <router-view></router-view>
 </div>
 
-<footer class="bg-warning text-light">
+<footer class="bg-warning text-primary">
   <div>Desafio CopyBase {{ new Date().getFullYear() }}</div>
 </footer>
 </template>
@@ -47,5 +47,7 @@
     align-items: center;
     justify-content: center;
     height: 56px;
+    font-size: 1.5em;
+    font-weight: 500;
   }
 </style>
