@@ -22,7 +22,7 @@
       </div>
       <router-link class="mx-auto navbar-brand" to="/">
       <img src="./assets/logo.png" alt="" width="100" height="50" class="d-inline-block">
-    </router-link>
+      </router-link>
     </div>
   </div>
 </nav>
