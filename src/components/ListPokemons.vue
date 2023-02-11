@@ -10,8 +10,8 @@
       <img 
       :src="urlBaseSvg" 
       class="card-img-top" 
-      alt="..."
-      height="80"
+      alt="Imagem Pokemon"
+      height="75"
       />
     </div>
   </div>
@@ -32,7 +32,7 @@
 }
 
 .cardListPokemon img:hover{
-  width: 5rem;
+  padding: .2rem;
 }
 
 </style>
